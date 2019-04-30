@@ -183,7 +183,7 @@ void PID_calculate(float target)
 //			printf("cnt : %3d , speed : %3d (target : %3d)\r\n" ,cnt,(uint16_t)speed,(uint16_t)target);
 
 			#if defined (USE_TIMER_CALCULATE_TIMING)
-			printf("cnt : %3d , time : %5d us , speed : %5d (target : %5d)\r\n" ,cnt,GetTick() - tickstart,(uint16_t)speed,(uint16_t)target);
+			printf("cnt : %3d , time : %5d ms , speed : %5d (target : %5d)\r\n" ,cnt,GetTick() - tickstart,(uint16_t)speed,(uint16_t)target);
 			#endif
 				
 			#endif
